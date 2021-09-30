@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Profit or Loss</title>
+</head>
+<body>
+    <h2>Stock Purchase Profit or Loss</h2>
+    <main>
+        <div class="leftside">
+            <h2>Where's my Stonks?</h2>
+            <input type="number" id="ip_input" placeholder="Enter Initial Price here" /><br />
+            <input
+                type="number"
+                id="quantity_input"
+                placeholder="Enter Number of Stocks here"
+            /><br />
+            <input type="number" id="cp_input" placeholder="Enter Current Price Here" /><br />
+            <button id="submit-btn">Tell me!</button>
+        </div>
+
+        <div class="rightside">
+            <div id="output_box"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
